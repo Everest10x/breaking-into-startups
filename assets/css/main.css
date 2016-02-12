@@ -424,7 +424,7 @@
 	@media screen and (min-width: 737px) {
 
 		.row > * {
-			padding: 50px 0 0 50px;
+			padding: 40px 0 0 40px;
 		}
 
 		.row {
@@ -1288,7 +1288,11 @@
 
 		.box .image.featured {
 			position: relative;
-			width: auto;
+			width: 30%;
+		}
+
+		.box .inner {
+			margin-left: calc(30% + 2em)
 		}
 
 /* Button */
@@ -1389,6 +1393,7 @@
 
 		.image.featured {
 			display: block;
+			float: left;
 			width: 100%;
 			margin: 0 0 2em 0;
 		}
