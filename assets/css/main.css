@@ -56,6 +56,15 @@
 		box-sizing: border-box;
 	}
 
+/* Email */
+
+.email-newsletter {
+	margin: 0 auto;
+	width: 400px;
+}
+
+/* Email */
+
 /* Containers */
 
 	.container {
