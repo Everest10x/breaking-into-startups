@@ -27,7 +27,7 @@
 	}
 
 	ol, ul {
-		list-style: none;
+		/*list-style: none;*/
 	}
 
 	blockquote, q {
@@ -1284,6 +1284,7 @@
 	.box {
 		background: #ffffff;
 		border-bottom: solid 1px #ccc;
+		margin: 0% 10%;
 	}
 
 		.box .image.featured {
@@ -1379,6 +1380,7 @@
 		.image img {
 			display: block;
 			width: 100%;
+			margin: 10%;
 		}
 
 		.image.centered {
