@@ -57,14 +57,19 @@
 		box-sizing: border-box;
 	}
 
-
+.code-format {
+  padding: 0px 3px;
+  background: #fff;
+  border: 1px solid #ddd;
+  zoom: 1;
+}
 
 /* Email */
 
 .email-newsletter {
 	margin: 0 auto;
 	max-width: 400px;
-	min-width: 300px;
+	min-width: 270px;
 }
 
 .rec-list {
