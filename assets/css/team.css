@@ -117,13 +117,6 @@ body {
   box-shadow: 2px 2px 0px rgba(0,0,0, 0.18);
   transition: all 0.1s ease-in;
 }
-  
-#speakers img:hover {
-  border: 15px solid #d52349;
-  position: relative;
-  z-index: 10;
-  transition: all 0.1s ease-in; 
-}
 
 #speakers span {
   padding: 8px 20px;
@@ -154,15 +147,20 @@ body {
 #speakers li a {color: rgba(0,0,0, 0.3); transition: all 0.1s ease-in;}
 #speakers li a:hover {color: rgba(0,0,0, 0.7);}
 
-/* Rows Optimization */
-.row2 {
-  display: none;
+
+@media screen and (min-width: 1200px) {
+  #speakers img:hover {
+  border: 15px solid #d52349;
+  position: relative;
+  z-index: 10;
+  transition: all 0.1s ease-in; 
+  }
 }
 
-.row1 .col-md-3, .row2 .col-md-3 {
-  padding-bottom: 40px;
-}
-
-  #speakers img {max-width: 300px;}
-
+/* Mobile Devices Optimization */
+@media screen and (max-width: 736px) {
+  .thumbnail {
+    width: 100%;
+    padding: 0;
+  }
 }
